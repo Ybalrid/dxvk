@@ -317,7 +317,7 @@ namespace dxvk {
     DxvkExt extDebugUtils                   = { VK_EXT_DEBUG_UTILS_EXTENSION_NAME,                      DxvkExtMode::Optional };
     DxvkExt khrGetSurfaceCapabilities2      = { VK_KHR_GET_SURFACE_CAPABILITIES_2_EXTENSION_NAME,       DxvkExtMode::Optional };
     DxvkExt khrSurface                      = { VK_KHR_SURFACE_EXTENSION_NAME,                          DxvkExtMode::Required };
-    DxvkExt khrExternalMenory               = { VK_KHR_EXTERNAL_MEMORY_EXTENSION_NAME,                  DxvkExtMode::Optional };
+    DxvkExt khrExternalMemory               = { VK_KHR_EXTERNAL_MEMORY_EXTENSION_NAME,                  DxvkExtMode::Optional };
     DxvkExt khrExternalMemoryFd             = { VK_KHR_EXTERNAL_MEMORY_FD_EXTENSION_NAME,               DxvkExtMode::Optional };
     DxvkExt khrDedicatedAllocation          = { VK_KHR_DEDICATED_ALLOCATION_EXTENSION_NAME,             DxvkExtMode::Optional };
     //TODO might need external fence ?
